@@ -9,10 +9,6 @@
     <description>OWASP Benchmark is a Java test suite designed to evaluate the accuracy, coverage, and speed of automated software vulnerability detection tools.</description>
     <url>https://owasp.org/www-project-benchmark/</url>
 
-    <properties>
-  <sonar.organization>ramvaidya05</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
     
     <developers>
         <developer>
@@ -163,6 +159,8 @@
                                         ${tomcat.jvmargs}
                                         ${tomcat.jvmargs.debug}
                                     </cargo.start.jvmargs>
+                                    <sonar.organization>ramvaidya05</sonar.organization>
+                                    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
                                 </properties>
                             </configuration>
                         </configuration>
